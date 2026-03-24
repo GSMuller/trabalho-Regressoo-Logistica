@@ -28,6 +28,13 @@ data.frame(
 )
 # A: 0.2267 | B: 0.3170 | C: 0.3359 (melhor)
 
+#  Modelo     R2       R2_Aj
+#1    A      0.2267    0.2263
+#2    B      0.3170    0.3161
+#3    C      0.3359    0.3346
+
+
+
 # 6. Diagnóstico — Modelo C
 par(mfrow = c(2,2)); plot(modelo_C); par(mfrow = c(1,1))
 
